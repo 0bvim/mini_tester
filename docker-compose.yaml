@@ -1,0 +1,8 @@
+name: "mini_tester"
+
+services:
+  mini-tester:
+    build: .
+    container_name: mini_tester
+    volumes:
+      - .:/go/src/
